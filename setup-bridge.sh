@@ -38,7 +38,7 @@ ip link set vxlan-tunnel up
 ip a | grep vxlan-tunnel
 
 # attach new VXLAN-tunnel interface to our docker bridge network
-echo ~~~Attaching VXLAN-tunnel to docker bridge~~~
+echo ~~~Attaching VXLAN tunnel to docker bridge~~~
 brctl addif br-${bridge_id} vxlan-tunnel
 
 # show bridge interfaces
