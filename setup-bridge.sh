@@ -27,7 +27,7 @@ echo ~~~Creating VXLAN tunnel interface~~~
 
 # "dev bond0" - find default host interface with "ip route"
 
-ip link add vxlan-tunnel type vxlan id 100 remote 213.173.111.95 dstport 4789 dev bond0.2636
+ip link add vxlan-tunnel type vxlan id 100 remote 213.173.111.94 dstport 4789 dev bond0.2636
 
 # set interface to "UP"
 
