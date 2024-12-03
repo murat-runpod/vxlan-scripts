@@ -1,4 +1,4 @@
 #!/bin/sh
-echo ~~~Killing and deleting container~~~ 
+echo ~~~Killing and removing container~~~ 
 docker kill pod
 docker rm pod
