@@ -1,7 +1,6 @@
 Execute in following order:
 
-`enable-jumboframes.sh` -> `setup-bridge.sh` -> `launch-pod.sh`
-
+`enable-jumboframes.sh` -> `setup-bridge.sh` -> `create-pod.sh`
 
 To dismantle:
 
