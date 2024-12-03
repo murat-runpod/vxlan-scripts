@@ -10,7 +10,7 @@ apt install jq -y
 # create new docker bridge network
 # "--opt com.docker.network.driver.mtu=8950" ensures any new containers on bridge will automatically configure interface MTUs
 echo ~~~Creating docker bridge network~~~
-docker network create --opt com.docker.network.driver.mtu=8950--subnet 172.18.0.0/16 vxlan-bridge
+docker network create --opt com.docker.network.driver.mtu=8950 --subnet 172.18.0.0/16 vxlan-bridge
 bridge_id=$(sudo docker network inspect -f {{.Id}} vxlan-bridge)
 
 # create VXLAN tunnel interface 
