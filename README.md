@@ -5,7 +5,7 @@ Execute in following order:
 
 To dismantle:
 
-Kill any associated containers -> `remove-bridge.sh`
+`kill-pod.sh` -> `remove-bridge.sh`
 
 
 In case of any issues with Docker reading GPU's, follow these steps exactly:
