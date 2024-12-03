@@ -9,4 +9,4 @@ echo ~~~Configuring interface~~~
 docker exec pod ip link set dev eth0 mtu 8950
 docker exec pod ip a | grep mtu
 
-docker exec -it pos bash
+docker exec -it pod bash
